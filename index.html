@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/stylesheet.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form__container hidden">
+      <form class="form">
+        <button class="form__button-close">
+          <svg
+            width="27"
+            height="27"
+            viewBox="0 0 27 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5 0V27M27 13.5L0 13.5"
+              stroke="#F4C500"
+              stroke-width="4"
+            />
+          </svg>
+        </button>
+        <h2 class="h2 form__title">Ready to purchase?</h2>
+        <p class="p__1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt
+          quam convallis a lacus consequat, ultrices.
+        </p>
+        <input
+          class="form__input form__input-name"
+          placeholder="Firstname"
+          type="text"
+          name="firstname"
+          id=""
+          required
+        />
+        <input
+          class="form__input form__input-lastname"
+          placeholder="Lastname"
+          type="text"
+          name="lastname"
+          id=""
+          required
+        />
+        <input
+          class="form__input form__input-email"
+          placeholder="Email@gmail.com"
+          type="email"
+          name="email"
+          id=""
+          required
+        />
+        <input
+          class="form__input form__input-phone"
+          placeholder="+48 328 4870 09 27"
+          type="tel"
+          name="tel"
+          id=""
+          required
+          minlength="9"
+          maxlength="11"
+        />
+        <div class="form__img">
+          <img src="./img/form1.png" alt="" />
+          <img src="./img/form2.png" alt="" />
+        </div>
+        <button class="form__button p__2" type="submit">Buy NFT</button>
+      </form>
+    </div>
+    <div class="container">
+      <header class="header">
+        <h2 class="header__title">What is NFT?</h2>
+        <p class="p__1">
+          Non-fungible tokens, often referred to as NFTs, are blockchain-based
+          tokens that each represent a unique asset like a piece of art, digital
+          content, or media.
+        </p>
+      </header>
+      <main>
+        <section class="intro">
+          <div class="intro__item intro__item--item1">
+            <p class="intro__p p__2">
+              FOR music connoisseurs and collectors of contemporary art
+            </p>
+            <ul>
+              <li>Protected digital asset to invest in.</li>
+              <li>
+                NFTs allow for the support of authoring projects and the
+                development of a crypto-art community.
+              </li>
+              <li>Digital asset that greatly appreciates over time.</li>
+            </ul>
+          </div>
+          <div class="intro__item intro__item--item2">
+            <p class="intro__p p__2">FOR brands</p>
+            <ul>
+              <li>Trendy way of communication with audience.</li>
+              <li>Unique brand experiences that inspires engagement.</li>
+              <li>Efficient digital assets to invest in.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="catalog">
+          <!-- <div class="catalog__item">
+            <div class="catalog__item-content">
+              <h2 class="catalog__item-title">Silver NFT</h2>
+              <p class="catalog__item-description p__1">
+                Available for purchase: 100 NFT
+              </p>
+              <div class="catalog__item-check">
+                <input
+                  class="catalog__item-checkbox-input"
+                  type="checkbox"
+                  name="catalog__item-checkbox"
+                  id="privacy_check-1"
+                />
+                <label
+                  for="catalog__item-checkbox"
+                  class="catalog__item-checkbox-name"
+                  >Show sold posters</label
+                >
+              </div>
+            </div>
+
+            <button class="catalog__button">
+              <svg
+                width="27"
+                height="27"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 0V27M27 13.5L0 13.5"
+                  stroke="#F4C500"
+                  stroke-width="4"
+                />
+              </svg>
+            </button>
+
+            <div class="catalog__content catalog__content--closed">
+              <p class="p__2">
+                You get: </br>-  NFT poster + sponsor logo on web page
+              </p>
+
+              <div class="catalog__cards">
+                <div class="catalog__card">
+                  <img src="./img/cards/item1.jpg" alt="nft-img">
+                  <div class="catalog__card-description">
+                    <span class="catalog__card-price p__2">50₣</span>
+                    <button class="catalog__card-button p__3">Buy NFT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
